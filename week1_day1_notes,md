@@ -1,0 +1,46 @@
+# Week 1 · Day 1 — Number Systems & Exponents
+**Roadmap:** BS CS → MS AI Mathematics  
+**Stage:** 1 — Pre-Calculus Foundation  
+**Date:** 2026-06-05
+
+---
+
+## Topic 1 — Number Systems
+
+### Number Type Hierarchy
+N ⊂ W ⊂ Z ⊂ Q ⊂ R ⊂ C
+
+| Symbol | Name | Example |
+|--------|------|---------|
+| N | Natural | 1, 2, 3 |
+| W | Whole | 0, 1, 2 |
+| Z | Integer | -3, 0, 4 |
+| Q | Rational | 1/2, 0.75 |
+| Q' | Irrational | √2, π, e |
+| R | Real | any number line point |
+| C | Complex | 3 + 2i |
+
+### Absolute Value
+- |x| = x if x ≥ 0; |x| = −x if x < 0
+- ML use: L1 loss (Mean Absolute Error)
+
+### Properties of Real Numbers
+- Commutative: a + b = b + a
+- Associative: (a+b)+c = a+(b+c)
+- Distributive: a(b+c) = ab + ac ← backbone of matrix multiplication
+
+### Interval Notation
+- (a, b) → open, excludes endpoints
+- [a, b] → closed, includes endpoints
+- [a, b) → half-open
+
+### Python Number Types
+```python
+int   → Z     # e.g. x = -3
+float → R     # e.g. x = 3.14
+complex → C   # e.g. x = 3 + 2j
+bool  → {0,1} # True == 1
+
+7 / 2   # 3.5  (float division)
+7 // 2  # 3    (floor division)
+7 % 2   # 1    (modulus)
